@@ -1,0 +1,35 @@
+.product {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #007bff;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+}
+.product img {
+  width: 180px;
+  margin-bottom: 10px;
+}
+.product h2,
+h3 {
+  font-size: 16px;
+  margin: 0;
+}
+.product p {
+  margin: 2px;
+}
+.product button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  width: 170px;
+  padding: 8px;
+  border-color: #007bff;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: azure;
+  font-size: 16px;
+}

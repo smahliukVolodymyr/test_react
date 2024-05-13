@@ -1,0 +1,40 @@
+.productList-container {
+  text-align: center;
+}
+.productList-container h1 {
+  color: #007bff;
+}
+.productList-list {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.productList-container button {
+  margin-bottom: 15px;
+  border-color: #007bff;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: azure;
+  font-size: 16px;
+}
+.sort-container {
+  margin-bottom: 5px;
+}
+.modal-content {
+  margin-top: 10%;
+  background-color: white;
+  border-radius: 5px;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
