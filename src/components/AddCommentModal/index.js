@@ -30,7 +30,6 @@ function AddCommentModal({ onClose, onAdd, productId }) {
       ...prevState,
       date: currentDate,
     }));
-    console.log(formData);
     if (formData.description) {
       onAdd(formData);
     }
